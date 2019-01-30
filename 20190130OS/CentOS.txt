@@ -8,7 +8,7 @@ centOS：https://www.centos.org/
 
 インストール方法：https://www.rem-system.com/centos76-install/
 
-VMPlayerにをインストール：https://qiita.com/kzmnt/items/335019e5fb4b118a0d3b
+VMPlayerにインストール：https://qiita.com/kzmnt/items/335019e5fb4b118a0d3b
 
 WordPressインストール方法：https://qiita.com/ikenyal/items/b599d7a29d884e67b3a9
 
