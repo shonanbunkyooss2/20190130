@@ -1,11 +1,11 @@
-OSFUbuntu 18.04
+ï»¿OSï¼šUbuntu 18.04
 https://www.ubuntulinux.jp/japanese
 
 
-WordPressƒ_ƒEƒ“ƒ[ƒhƒy[ƒW
+WordPressãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰ãƒšãƒ¼ã‚¸
 https://ja.wordpress.org/
 
 
-ƒCƒ“ƒXƒg[ƒ‹•û–@
+ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«æ–¹æ³•
 https://eco.senritu.net/ubuntu18_04_wordpress_ssl_nginx/
 https://shotr.me/2018/07/install-wordpress-ubuntu-18-04/
