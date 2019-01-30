@@ -4,3 +4,6 @@
 　　　　　MicrosoftOfficeに似た機能を持ったOfficeアプリケーションも付随している。
 
 インストールの流れ：https://eng-entrance.com/linux-distribution-linuxmint
+
+コメント：実際の使用感として、初心者向けで扱いやすいものとなっていた。
+　　　　　動作に関しても十分に扱えるレベル。
