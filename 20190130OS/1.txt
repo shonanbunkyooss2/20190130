@@ -6,7 +6,6 @@ WordPressダウンロードページ
 https://ja.wordpress.org/
 
 
-
 インストール方法
 https://eco.senritu.net/ubuntu18_04_wordpress_ssl_nginx/
 https://shotr.me/2018/07/install-wordpress-ubuntu-18-04/
