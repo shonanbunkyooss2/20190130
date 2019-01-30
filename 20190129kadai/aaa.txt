@@ -1,8 +1,5 @@
-<<<<<<< HEAD
 bbbbbbbbbbbbbbbbbbbbbbbbb
-=======
 aaaaaaaaaaaaaaaaaaaaaaaaaa
->>>>>>> master
 
 bbbbbbbbbbbbbbbbbbbbbbbbbb
 
