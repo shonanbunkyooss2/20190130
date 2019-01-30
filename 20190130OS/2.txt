@@ -9,3 +9,20 @@ centOS：https://www.centos.org/
 インストール方法：https://www.rem-system.com/centos76-install/
 
 WordPressインストール方法：https://qiita.com/ikenyal/items/b599d7a29d884e67b3a9
+
+
+
+
+
+
+○CentOSは、Red Hat Enterprise Linux(RHEL)のソースコードをベースに開発されているため、「RHELクローン」と呼ばれることもある。
+
+Red Hat Enterprise Linuxから引き継ぐ「高機能」「高い安定性」が特徴。
+
+
+
+○動作環境
+CentOSは「64ビット版x86系アーキテクチャ」のみをサポートしている。AWSやGoogleクラウド用の一般的なクラウド初期化対応イメージも提供している。
+
+AltArchスペシャル・インタレスト・グループのコミュニティ版として、その他のアーキテクチャ用バージョンも提供されている。
+
