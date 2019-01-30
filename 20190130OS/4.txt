@@ -1,0 +1,33 @@
+OS：Ubuntu 18.04
+https://www.ubuntulinux.jp/japanese
+
+WordPressダウンロードページ：
+https://ja.wordpress.org/
+
+インストール方法：
+https://eco.senritu.net/ubuntu18_04_wordpress_ssl_nginx/
+https://shotr.me/2018/07/install-wordpress-ubuntu-18-04/
+
+
+OS：CentOS：
+https://www.centos.org/
+
+ダウンロードURL：
+https://www.centos.org/download/
+
+インストール方法：
+https://www.rem-system.com/centos76-install/
+
+WordPressインストール方法：
+https://qiita.com/ikenyal/items/b599d7a29d884e67b3a9
+
+
+OS：distribution：Linux mint
+系統：Debian系
+
+
+
+採用理由：難しい設定が不要で、初心者でも簡単に扱うことが可能であるため。
+　　　　　MicrosoftOfficeに似た機能を持ったOfficeアプリケーションも付随している。
+
+インストールの流れ：https://eng-entrance.com/linux-distribution-linuxmint
