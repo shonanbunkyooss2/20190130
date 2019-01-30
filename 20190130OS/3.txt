@@ -1,9 +1,0 @@
-﻿distribution：Linux mint
-系統：Debian系
-採用理由：難しい設定が不要で、初心者でも簡単に扱うことが可能であるため。
-　　　　　MicrosoftOfficeに似た機能を持ったOfficeアプリケーションも付随している。
-
-インストールの流れ：https://eng-entrance.com/linux-distribution-linuxmint
-
-コメント：実際の使用感として、初心者向けで扱いやすいものとなっていた。
-　　　　　動作に関しても十分に扱えるレベル。

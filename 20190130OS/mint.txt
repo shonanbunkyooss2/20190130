@@ -1,0 +1,11 @@
+﻿CentOS/RedHat系
+
+centOS：https://www.centos.org/
+
+
+
+ダウンロードURL：https://www.centos.org/download/
+
+インストール方法：https://www.rem-system.com/centos76-install/
+
+WordPressインストール方法：https://qiita.com/ikenyal/items/b599d7a29d884e67b3a9
