@@ -1,0 +1,20 @@
+うまくいったUbuntuのインストールのisoファイルの場所
+https://www.ubuntulinux.jp/download/ja-remix
+
+1.付属ソフトウェアのアップデート
+
+2．mysqlの初期設定
+
+
+
+wget https://ja.wordpress.org/wordpress-4.4.2-ja.zip
+unzip wordpress-4.4.2-ja.zip 
+
+wpのためのDB名
+wordpress
+
+MySQLDBのユーザー名
+shotafurukawa1226
+
+MySQLDBのパスワード
+shota1226
