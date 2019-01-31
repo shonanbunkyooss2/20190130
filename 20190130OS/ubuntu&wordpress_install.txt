@@ -18,3 +18,53 @@ shotafurukawa1226
 
 MySQLDBのパスワード
 shota1226
+
+
+
+
+参考
+https://qiita.com/umchifre/items/39d0b87ebcf9a9e007b3
+
+パッケージのインストール
+sudo apt-get update
+sudo apt-get install mysql-server php php-mysql apache2 libapache2-mod-php
+
+
+mysqlへのログイン方法
+CM：sudo mysql -u root -p
+PW：1226
+
+mysqlでのデータベース作成
+create database wordpress;
+
+mysqlでのユーザ作成
+grant all privileges on wordpress.* to "user"@"localhost"
+indentified by "pass";
+
+mysqlの起動方法
+sudo service mysql start
+
+
+apacheの起動コマンド
+systemctl start apache2
+
+
+wordpressのDB設定
+cd wordpress
+sudo vi wp-config.php
+
+
+abega13466aaa
+
+wordpressの起動
+http://localhost/wp-admin/install.php
+
+wordpressのアドレス
+http://127.0.0.1/wp-admin/
+
+
+ドキュメントルート（Apache）
+<Directry /var/www/>
+
+アパッチ
+/etc/apache2/
