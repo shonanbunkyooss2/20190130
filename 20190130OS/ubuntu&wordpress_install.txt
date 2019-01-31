@@ -1,70 +1,82 @@
-‚¤‚Ü‚­‚¢‚Á‚½Ubuntu‚ÌƒCƒ“ƒXƒg[ƒ‹‚Ìisoƒtƒ@ƒCƒ‹‚ÌêŠ
+ï»¿ã†ã¾ãã„ã£ãŸUbuntuã®ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ã®isoãƒ•ã‚¡ã‚¤ãƒ«ã®å ´æ‰€
 https://www.ubuntulinux.jp/download/ja-remix
 
-1.•t‘®ƒ\ƒtƒgƒEƒFƒA‚ÌƒAƒbƒvƒf[ƒg
+1.ä»˜å±ã‚½ãƒ•ãƒˆã‚¦ã‚§ã‚¢ã®ã‚¢ãƒƒãƒ—ãƒ‡ãƒ¼ãƒˆ
 
-2Dmysql‚Ì‰Šúİ’è
+2ï¼mysqlã®åˆæœŸè¨­å®š
 
 
 
 wget https://ja.wordpress.org/wordpress-4.4.2-ja.zip
 unzip wordpress-4.4.2-ja.zip 
 
-wp‚Ì‚½‚ß‚ÌDB–¼
+wpã®ãŸã‚ã®DBå
 wordpress
 
-MySQLDB‚Ìƒ†[ƒU[–¼
+MySQLDBã®ãƒ¦ãƒ¼ã‚¶ãƒ¼å
 shotafurukawa1226
 
-MySQLDB‚ÌƒpƒXƒ[ƒh
+MySQLDBã®ãƒ‘ã‚¹ãƒ¯ãƒ¼ãƒ‰
 shota1226
 
+cp wp-config-sample.php wp-config.php
+vi wp-config.php
+
+define('DB_NAME', 'wordpress');
+define('DB_USER', 'user');
+define('DB_PASSWORD', 'pass');
+define('DB_HOST', 'localhost');
 
 
 
-Ql
+å‚è€ƒ
 https://qiita.com/umchifre/items/39d0b87ebcf9a9e007b3
 
-ƒpƒbƒP[ƒW‚ÌƒCƒ“ƒXƒg[ƒ‹
+ãƒ‘ãƒƒã‚±ãƒ¼ã‚¸ã®ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«
 sudo apt-get update
 sudo apt-get install mysql-server php php-mysql apache2 libapache2-mod-php
 
 
-mysql‚Ö‚ÌƒƒOƒCƒ“•û–@
-CMFsudo mysql -u root -p
-PWF1226
+mysqlã¸ã®ãƒ­ã‚°ã‚¤ãƒ³æ–¹æ³•
+CMï¼šsudo mysql -u root -p
+PWï¼š1226
 
-mysql‚Å‚Ìƒf[ƒ^ƒx[ƒXì¬
+mysqlã§ã®ãƒ‡ãƒ¼ã‚¿ãƒ™ãƒ¼ã‚¹ä½œæˆ
 create database wordpress;
 
-mysql‚Å‚Ìƒ†[ƒUì¬
-grant all privileges on wordpress.* to "user"@"localhost"
-indentified by "pass";
+mysqlã§ã®ãƒ¦ãƒ¼ã‚¶ä½œæˆ
+create user 'username'@'localhost' identified with mysql_native_password by 'password';
+grant all privileges on anydatabase.* to 'user'@'localhost';
 
-mysql‚Ì‹N“®•û–@
+
+mysqlã®èµ·å‹•æ–¹æ³•
 sudo service mysql start
 
 
-apache‚Ì‹N“®ƒRƒ}ƒ“ƒh
+apacheã®èµ·å‹•ã‚³ãƒãƒ³ãƒ‰
 systemctl start apache2
 
 
-wordpress‚ÌDBİ’è
+wordpressã®DBè¨­å®š
 cd wordpress
 sudo vi wp-config.php
 
 
-abega13466aaa
-
-wordpress‚Ì‹N“®
+wordpressã®èµ·å‹•
 http://localhost/wp-admin/install.php
 
-wordpress‚ÌƒAƒhƒŒƒX
+wordpressã®ã‚¢ãƒ‰ãƒ¬ã‚¹
 http://127.0.0.1/wp-admin/
 
 
-ƒhƒLƒ…ƒƒ“ƒgƒ‹[ƒgiApachej
+ãƒ‰ã‚­ãƒ¥ãƒ¡ãƒ³ãƒˆãƒ«ãƒ¼ãƒˆï¼ˆApacheï¼‰
 <Directry /var/www/>
 
-ƒAƒpƒbƒ`
+ã‚¢ãƒ‘ãƒƒãƒ
 /etc/apache2/
+
+VMWereã®ãƒãƒƒãƒˆãƒ¯ãƒ¼ã‚¯è¨­å®šã‚’å¤‰æ›´ã™ã‚‹
+ãƒ–ãƒªãƒƒã‚¸
+
+172.20.22.74
+192.168.152.128
